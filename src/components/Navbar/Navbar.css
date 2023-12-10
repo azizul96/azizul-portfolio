@@ -1,0 +1,4 @@
+.active {
+    color: #ff7a57; /* Change this to the desired color for the active link */
+    text-decoration: underline;
+  }
