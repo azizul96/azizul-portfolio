@@ -10,6 +10,9 @@ const Navbar = () => {
                 <ScrollLink spy={true} smooth={true} duration={1000} to="about" >
                     <li className="font-bold px-4 py-2 cursor-pointer">About</li>
                 </ScrollLink>
+                <ScrollLink spy={true} smooth={true} duration={1000} to="skill" >
+                    <li className="font-bold px-4 py-2 cursor-pointer">Skill</li>
+                </ScrollLink>
                 <ScrollLink spy={true} smooth={true} duration={1000} to="contact">
                     <li className="font-bold px-4 py-2 cursor-pointer">Contact</li>
                 </ScrollLink>

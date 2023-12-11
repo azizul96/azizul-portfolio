@@ -1,8 +1,8 @@
 
 const Banner = () => {
     return (
-        <header id="banner" className=" dark:bg-gray-900">
-            <div className="container lg:pt-24 py-10 mx-auto">
+        <header className="pt-28 pb-10">
+            <div className="container  mx-auto">
                 <div className="items-center lg:flex lg:flex-row-reverse gap-5 ">
         
                     <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">

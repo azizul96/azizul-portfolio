@@ -1,7 +1,8 @@
 
 const About = () => {
     return (
-        <div id="about" className="container mx-auto py-20 ">
+        <div className="container mx-auto py-20 ">
+            <h1 className=" text-3xl text-center font-semibold mb-10 lg:mb-20 text-orange-500">{`< About Me />`}</h1>
             <div className="flex flex-col md:flex-row justify-start gap-5">
                 <div >
                     <img className="w-full h-full md:rounded-full" src="/public/my.gif" alt="" />
