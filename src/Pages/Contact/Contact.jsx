@@ -1,14 +1,16 @@
+import toast from 'react-hot-toast';
 import { MdLocationPin, MdPhoneInTalk, MdEmail } from 'react-icons/md';
 
 const Contact = () => {
 
-    const handleContact = () =>{
-
+    const handleContact = e =>{
+        e.preventDefault()
+        toast.success('Successfully toasted!')
     }
     return (
-        <div className="py-16">
-            <h1 className=" text-3xl text-center font-semibold mt-10 text-orange-500">{`< Contact  />`}</h1>
-            <div className="container  py-16 mx-auto">
+        <div className="pt-16 pb-10 mb-10">
+            <h1 className=" text-3xl text-center font-semibold text-orange-500 mb-10">{`< Contact  />`}</h1>
+            <div className="container  mx-auto">
                 <div className="lg:flex lg:items-center lg:-mx-6">
                     <div className="lg:w-1/2 lg:mx-6">
                         <p>Available 24/7</p>

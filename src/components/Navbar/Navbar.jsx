@@ -13,6 +13,12 @@ const Navbar = () => {
                 <ScrollLink spy={true} smooth={true} duration={1000} to="skill" >
                     <li className="font-bold px-4 py-2 cursor-pointer">Skill</li>
                 </ScrollLink>
+                <ScrollLink spy={true} smooth={true} duration={1000} to="portfolio" >
+                    <li className="font-bold px-4 py-2 cursor-pointer">Portfolio</li>
+                </ScrollLink>
+                <ScrollLink spy={true} smooth={true} duration={1000} to="education" >
+                    <li className="font-bold px-4 py-2 cursor-pointer">Education</li>
+                </ScrollLink>
                 <ScrollLink spy={true} smooth={true} duration={1000} to="contact">
                     <li className="font-bold px-4 py-2 cursor-pointer">Contact</li>
                 </ScrollLink>

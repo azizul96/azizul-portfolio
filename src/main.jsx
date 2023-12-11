@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Layout from './Layout/Layout';
 import Home from './Pages/Home/Home';
+import { Toaster } from 'react-hot-toast';
 
 const router = createBrowserRouter([
   {
@@ -28,5 +29,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <div className='container mx-auto'>
       <RouterProvider router={router} />
     </div>
+    <Toaster/>
   </React.StrictMode>,
 )
