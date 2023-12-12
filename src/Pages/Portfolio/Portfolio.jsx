@@ -3,12 +3,12 @@ import { GiCheckMark } from "react-icons/gi";
 const Portfolio = () => {
     return (
         <div className="pt-20 pb-10 mb-10">
-            <h1 className=" text-3xl text-center font-semibold mb-10 text-orange-500">{`< Projects />`}</h1>
+            <h1 className=" text-3xl text-center font-bold mb-10 text-[#ff7a57]">{`< Projects />`}</h1>
             <section className="mt-8 space-y-8 lg:mt-12">
                         <div className="lg:flex lg:items-center lg:gap-10 mb-10">
                             <div className="mt-4 lg:w-1/2 lg:mt-0">
                                 <img className="w-full h-full rounded-lg md:h-96"
-                                    src="/public/p1.png"
+                                    src="/p1.png"
                                     alt=""/>
                             </div>
                             <div className="lg:w-1/2 ">
@@ -37,7 +37,7 @@ const Portfolio = () => {
                         <div className="lg:flex lg:items-center lg:gap-10 mb-10">
                             <div className="mt-4 lg:w-1/2 lg:mt-0">
                                 <img className="w-full h-full rounded-lg md:h-96"
-                                    src="/public/p2.png"
+                                    src="/p2.png"
                                     alt=""/>
                             </div>
                             <div className="lg:w-1/2 ">
@@ -68,7 +68,7 @@ const Portfolio = () => {
                         <div className="lg:flex lg:items-center lg:gap-10 mb-10">
                             <div className="mt-4 lg:w-1/2 lg:mt-0">
                                 <img className="w-full h-full rounded-lg md:h-96"
-                                    src="/public/p3.png"
+                                    src="/p3.png"
                                     alt=""/>
                             </div>
                             <div className="lg:w-1/2 ">

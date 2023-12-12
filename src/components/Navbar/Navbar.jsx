@@ -5,22 +5,22 @@ import './Navbar.css'
 const Navbar = () => {
     const menu = <>
                 <ScrollLink spy={true} smooth={true} duration={1000} to="banner">
-                    <li className="font-bold px-4 py-2 cursor-pointer" >Home</li>
+                    <li className="font-bold px-4 py-2 cursor-pointer text-base" >Home</li>
                 </ScrollLink>
                 <ScrollLink spy={true} smooth={true} duration={1000} to="about" >
-                    <li className="font-bold px-4 py-2 cursor-pointer">About</li>
+                    <li className="font-bold px-4 py-2 cursor-pointer text-base">About</li>
                 </ScrollLink>
                 <ScrollLink spy={true} smooth={true} duration={1000} to="skill" >
-                    <li className="font-bold px-4 py-2 cursor-pointer">Skill</li>
+                    <li className="font-bold px-4 py-2 cursor-pointer text-base">Skill</li>
                 </ScrollLink>
                 <ScrollLink spy={true} smooth={true} duration={1000} to="portfolio" >
-                    <li className="font-bold px-4 py-2 cursor-pointer">Portfolio</li>
+                    <li className="font-bold px-4 py-2 cursor-pointer text-base">Portfolio</li>
                 </ScrollLink>
                 <ScrollLink spy={true} smooth={true} duration={1000} to="education" >
-                    <li className="font-bold px-4 py-2 cursor-pointer">Education</li>
+                    <li className="font-bold px-4 py-2 cursor-pointer text-base">Education</li>
                 </ScrollLink>
                 <ScrollLink spy={true} smooth={true} duration={1000} to="contact">
-                    <li className="font-bold px-4 py-2 cursor-pointer">Contact</li>
+                    <li className="font-bold px-4 py-2 cursor-pointer text-base">Contact</li>
                 </ScrollLink>
                 
     
@@ -36,7 +36,7 @@ const Navbar = () => {
                     {menu}
                 </ul>
                 </div>
-                <Link className="text-[#ff7a57] text-2xl font-bold">Azizul</Link>
+                <Link className="text-[#ff7a57] text-3xl font-bold">Azizul</Link>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
