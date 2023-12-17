@@ -16,7 +16,7 @@ const Banner = () => {
                             <h1 className="text-4xl font-bold "> Azizul Islam</h1>
                             <a  href="https://github.com/Ratheshan03/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Frontend+Developer;With+Expertise+In;JS+React+Tailwind+MongoDB+ExpressJS;&center=false&width=500&height=50"/></a>
                             
-                            <a href="https://drive.google.com/u/0/uc?id=1tpAL-rFPzH_6ae_YBNTgwh_DA-MV37Us&export=download" download="resume.pdf">
+                            <a href="https://drive.google.com/u/0/uc?id=1MKbDltCDjn3CNjHzJpTtBlU4ZghcBkh9&export=download" download="resume.pdf">
                                 <button className="btn btn-error px-5 py-2 mt-6 text-lg text-white  bg-[#ff7a57] rounded-full font-semibold shadow-lg shadow-orange-500 border-none" >Download Resume</button>
                             </a>
                         </div>

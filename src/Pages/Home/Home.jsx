@@ -15,11 +15,10 @@ const Home = () => {
                 <Navbar></Navbar>
             </div>
             
-            <div id="banner" className="px-4" data-aos="fade-down" data-aos-easing="linear" 
-            data-aos-duration="1500">
+            <div id="banner" className="px-4">
                 <Banner></Banner>
             </div>
-            <div id="about" className="px-4">
+            <div id="about" className="px-4" >
                 <About></About>
             </div>
             <div id="skill" className="px-4">
